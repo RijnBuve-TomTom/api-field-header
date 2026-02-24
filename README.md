@@ -79,6 +79,8 @@ Open [http://localhost:5173](http://localhost:5173) to use the app. It provides 
 - **Field Exclusion** — comma-separated dot-notation paths
 - **Explicit Fields** — one dot-notation path per line
 
+![Screenshot](screenshot.png)
+
 ## Development
 
 ### Build
