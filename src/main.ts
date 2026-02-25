@@ -56,6 +56,13 @@ function createApp(): void {
         font-size: 0.82rem; color: #1e40af; margin-bottom: 16px; line-height: 1.5;
       }
       .info-box code { background: #dbeafe; padding: 1px 4px; border-radius: 3px; font-size: 0.8rem; }
+      .toolbox {
+        margin-top: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px;
+        padding: 10px 14px; font-size: 0.82rem; color: #475569;
+      }
+      .toolbox-title { font-weight: 600; margin-bottom: 4px; font-size: 0.82rem; }
+      .toolbox a { color: #3b82f6; text-decoration: none; }
+      .toolbox a:hover { text-decoration: underline; }
     </style>
 
     <h1>API Field Header Filter</h1>
@@ -105,6 +112,11 @@ function createApp(): void {
     <div class="section result-section">
       <label for="json-output">Filtered Output</label>
       <textarea id="json-output" class="json-output" readonly spellcheck="false"></textarea>
+    </div>
+
+    <div class="toolbox">
+      <div class="toolbox-title">🧰 Toolbox</div>
+      <a href="https://dot-notation-7hyuu.ondigitalocean.app/" target="_blank" rel="noopener noreferrer">Convert between JSON and dot-notation</a>
     </div>
   `
 
