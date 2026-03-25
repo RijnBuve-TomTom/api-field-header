@@ -1,4 +1,4 @@
-# API Field Header Filter
+# API Field Header Filter Prototype
 
 A TypeScript utility for filtering JSON API responses based on field inclusion and exclusion
 headers, implementing the API Response Field Selection mechanism.
